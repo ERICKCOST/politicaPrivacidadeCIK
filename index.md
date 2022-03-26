@@ -1,37 +1,705 @@
-## Politica De Privacidade Cidade Imafe Kids
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<meta name="author" content="Weslley Alves de Aguiar">
+		<meta name="keywords" content="Wes, Weslley, Alves, Aguiar, currículo, cv, Raiuga, WesRaiuga">
+		<meta name="description" content="Currículo de Weslley Alves de Aguiar - desenvolvedor de software">
+		<meta http-equiv="cache-control" content="no-cache" />
+		
+		<link rel="shortcut icon" href="assets/img/favicon.png">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+		
+		<link rel="stylesheet" href="assets/css/animacoes.css">
+		<link rel="stylesheet" href="assets/css/banner.css">
+		<link rel="stylesheet" href="assets/css/menu-sticky.css">
+		<link rel="stylesheet" href="assets/css/accordion.css">
+		<!-- <link rel="stylesheet" href="assets/css/timeline.css"> -->
+		<link rel="stylesheet" href="assets/css/estilo-geral.css">
 
-You can use the [editor on GitHub](https://github.com/ERICKCOST/politicaPrivacidadeCIK/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+		<script src="assets/js/i18n.js" defer></script>
+		<script src="assets/js/menu-sticky.js" defer></script>
+		<script src="assets/js/projetos.js" defer></script>
+		<script src="assets/js/accordion.js" defer></script>
+		
+		<title>Weslley Alves de Aguiar</title>
+	</head>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+	<body>
+		<!-- BANNER PRINCIPAL -->
+		<div id="banner">
+			<div id="banner-content">
+				<h3>Weslley Alves de Aguiar</h3>
+				<h1>
+					<span data-lang="PT">
+						Analista <span class="verde">Desenvolvedor</span>
+					</span>
+					<span class="hide" data-lang="EN">
+						Analyst <span class="verde">Developer</span>
+					</span>
+				</h1>
+				<p>
+					<span data-lang="PT">Formado em Análise e Desenvolvimento de Sistemas na <a id="fiap" href="https://www.fiap.com.br/">FIAP</a>.</span>
+					<span class="hide" data-lang="EN">Graduated in Systems Analysis and Development at <a id="fiap" href="https://www.fiap.com.br/">FIAP</a>.</span>
+				</p>
+				<!-- Redes Sociais -->
+				<nav id="redes-sociais">
+					<ul>
+						<li>
+							<a href="https://web.facebook.com/wesraiuga" class="social-icon">
+								<i class="fab fa-facebook-f fa-lg"></i>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.linkedin.com/in/wesraiuga/" class="social-icon">
+								<i class="fab fa-linkedin-in fa-lg"></i>
+							</a>
+						</li>
+						<li>
+							<a href="https://github.com/WesRaiuga" class="social-icon">
+								<i class="fab fa-github fa-lg"></i>
+							</a>
+						</li>
+						<li>
+							<a href="http://weslley26.tumblr.com/" class="social-icon">
+								<i class="fab fa-tumblr fa-lg"></i>
+							</a>
+						</li>
+					</ul>
+				</nav>
+				<div id="scroll">
+					<i class="fas fa-angle-down"></i>
+				</div>
+			</div>
+		</div>
+		<!-- ./ BANNER PRINCIPAL -->
+		
+		<!-- MENU STICKY -->
+		<div id="menu">
+			<header>
+				<div class="titulo">
+					<h2>Weslley</h2>
+				</div>
+				
+				<div class="menu-hamburguer">
+					<span class="traco traco-1"></span>
+					<span class="traco traco-2"></span>
+					<span class="traco traco-3"></span>
+				</div>
+				
+				<nav class="filtros">
+					<a href="#sobre-mim">
+						<span data-lang="PT">Sobre Mim</span>
+						<span class="hide" data-lang="EN">About Me</span>
+					</a>
+					<a href="#escolaridade">
+						<span data-lang="PT">Escolaridade</span>
+						<span class="hide" data-lang="EN">Education</span>
+					</a>
+					<a href="#experiencia-profissional">
+						<span data-lang="PT">Experiência Profissional</span>
+						<span class="hide" data-lang="EN">Professional Experience</span>
+					</a>
+					<a href="#projetos">
+						<span data-lang="PT">Projetos</span>
+						<span class="hide" data-lang="EN">Projects</span>
+					</a>
+					<a href="#contato">
+						<span data-lang="PT">Contato</span>
+						<span class="hide" data-lang="EN">Contact</span>
+					</a>
+					<div class="idiomas-btn">
+						<ul>
+							<li onclick="atualizaIdioma('PT')">
+								<img src="assets/img/icones/brazil.png" alt="Bandeira do Brasil">
+							</li>
+							<li onclick="atualizaIdioma('EN')">
+								<img src="assets/img/icones/usa.png" alt="Bandeira dos Estados Unidos da América">
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</header>
+			
+			<nav class="filtros mobile">
+				<a href="#sobre-mim">
+					<span data-lang="PT">Sobre Mim</span>
+					<span class="hide" data-lang="EN">About Me</span>
+				</a>
+				<a href="#escolaridade">
+					<span data-lang="PT">Escolaridade</span>
+					<span class="hide" data-lang="EN">Education</span>
+				</a>
+				<a href="#experiencia-profissional">
+					<span data-lang="PT">Experiência Profissional</span>
+					<span class="hide" data-lang="EN">Professional Experience</span>
+				</a>
+				<a href="#projetos">
+					<span data-lang="PT">Projetos</span>
+					<span class="hide" data-lang="EN">Projects</span>
+				</a>
+				<a href="#contato">
+					<span data-lang="PT">Contato</span>
+					<span class="hide" data-lang="EN">Contact</span>
+				</a>
+				<!-- Botões de Idioma -->
+				<div class="idiomas-btn">
+					<ul>
+						<li onclick="atualizaIdioma('PT')">
+							<img src="assets/img/icones/brazil.png" alt="Bandeira do Brasil">
+						</li>
+						<li onclick="atualizaIdioma('EN')">
+							<img src="assets/img/icones/usa.png" alt="Bandeira dos Estados Unidos da América">
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<!-- ./ MENU STICKY -->
+		
+		<!-- SOBRE MIM -->
+		<section id="sobre-mim" class="secao">
+			<div class="secao-content">
+				<h1>
+					<span data-lang="PT">Em construção</span>
+					<span class="hide" data-lang="EN">Under construction</span>
+				</h1>
+			</div>
+		</section>
+		<!-- ./ SOBRE MIM -->
+		
+		<!-- ESCOLARIDADE -->
+		<section id="escolaridade" class="secao">
+			<div class="secao-title">
+				<div class="secao-title-content">
+					<h2>
+						<span data-lang="PT">Escolaridade</span>
+						<span class="hide" data-lang="EN">Education</span>
+					</h2>
+				</div>
+			</div>
+			
+			<div class="secao-content">
 
-### Markdown
+				<!-- FORMAÇÃO ACADÊMICA -->
+				<button class="accordion">
+					<span data-lang="PT">Formação Acadêmica</span>
+					<span class="hide" data-lang="EN">Academic Education</span>
+					<i class="fas fa-angle-down"></i>
+				</button>
+				<div class="accordion-content">
+					<div>
+						<div class="title">
+							<div>
+								<img src="assets/img/escolaridade/fiap.png" alt="FIAP escrito em cor magenta">
+							</div>
+							<p>Faculdade de Informática e Administração Paulista</p>
+						</div>
+						<div class="info">
+							<p class="subtitle">
+								<span data-lang="PT">Análise e Desenvolvimento de Sistemas</span>
+								<span class="hide" data-lang="EN">Analysis and Systems Development</span>
+							</p>
+							<p>
+								<span data-lang="PT">2017 - 2018 (concluído)</span>
+								<span class="hide" data-lang="EN">2017 - 2018 (completed)</span>
+							</p>
+						</div>
+					</div>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+					<div>
+						<div class="title">
+							<div>
+								<img src="assets/img/escolaridade/puc-sp.png" alt="Brasão da PUC-SP">
+							</div>
+							<p>Pontifícia Universidade Católica de São Paulo</p>
+						</div>
+						<div class="info">
+							<p class="subtitle">
+								<span data-lang="PT">Tecnologia em Jogos Digitais</span>
+								<span class="hide" data-lang="EN">Technology in Game Design</span>
+							</p>
+							<p>
+								<span data-lang="PT">2012 - 2013 (incompleto)</span>
+								<span class="hide" data-lang="EN">2017 - 2018 (incomplete)</span>
+							</p>
+						</div>
+					</div>
 
-```markdown
-Syntax highlighted code block
+					<div>
+						<div class="title">
+							<div>
+								<img src="assets/img/escolaridade/renato-braga.png" alt="Brasão da escola Renato Braga">
+							</div>
+							<p>
+								<span data-lang="PT">Escola Estadual Professor Renato Braga</span>
+								<span class="hide" data-lang="EN">State School Professor Renato Braga</span>
+							</p>
+						</div>
+						<div class="info">
+							<p class="subtitle">
+								<span data-lang="PT">Ensino Médio</span>
+								<span class="hide" data-lang="EN">High School</span>
+							</p>
+							<p>
+								<span data-lang="PT">2009 - 2011 (concluído)</span>
+								<span class="hide" data-lang="EN">2009 - 2011 (completed)</span>
+							</p>
+						</div>
+					</div>
+				</div>
+				<!-- ./ FORMAÇÃO ACADÊMICA -->
 
-# Header 1
-## Header 2
-### Header 3
+				<!-- CURSOS -->
+				<button class="accordion">
+					<span data-lang="PT">Cursos</span>
+					<span class="hide" data-lang="EN">Courses</span>
+					<i class="fas fa-angle-down"></i>
+				</button>
+				<div class="accordion-content">
+					<!-- MASTERTECH -->
+					<div>
+						<div class="title">
+							<div>
+								<img src="assets/img/escolaridade/mastertech.png" alt="Logo da Mastertech: Um 'M' vermelho.">
+							</div>
+							<p>Mastertech</p>
+						</div>
+						<div class="info horizontal">
+							<div>
+								<p class="subtitle">
+									<span data-lang="PT">Academia Mastertech</span>
+									<span class="hide" data-lang="EN">Mastertech Academy</span>
+								</p>
+								<p>
+									<span data-lang="PT">Presencial (90 horas)</span>
+									<span class="hide" data-lang="EN">Presential (90 hours)</span>
+								</p>
+								<a href="https://drive.google.com/file/d/1esHG7Gaw3XSIOYAY9JnbQLuh37MnhN4z/view">
+									<span data-lang="PT">Ver certificado</span>
+									<span class="hide" data-lang="EN">View certificate</span>
+								</a>
+							</div>
+							<div>
+								<p class="subtitle">
+									<span data-lang="PT">Estação de Programação</span>
+									<span class="hide" data-lang="EN">Programming Station</span>
+								</p>
+								<p>
+									<span data-lang="PT">Presencial (16 horas)</span>
+									<span class="hide" data-lang="EN">Presential (16 hours)</span>
+								</p>
+								<a href="https://drive.google.com/file/d/15CEkBlKHPeH1GWZiLnR6CamGP2Ag7a0g/view">
+									<span data-lang="PT">Ver certificado</span>
+									<span class="hide" data-lang="EN">View certificate</span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<!-- ./ MASTERTECH -->
 
-- Bulleted
-- List
+					<!-- UDEMY -->
+					<div>
+						<div class="title">
+							<div>
+								<img src="assets/img/escolaridade/udemy.png" alt="Logo da Udemy: Um 'U' vermelho.">
+							</div>
+							<p>Udemy</p>
+						</div>
+						<div class="info horizontal">
+							<div>
+								<p class="subtitle">
+									<span data-lang="PT">Aprendendo a programar em Java</span>
+									<span class="hide" data-lang="EN">Learning to program in Java</span>
+								</p>
+								<p>
+									<span data-lang="PT">Online (6,5 horas)</span>
+									<span class="hide" data-lang="EN">Online (6.5 hours)</span>
+								</p>
+								<a href="http://ude.my/UC-HBLJSIMP">
+									<span data-lang="PT">Ver certificado</span>
+									<span class="hide" data-lang="EN">View certificate</span>
+								</a>
+							</div>
+							<div>
+								<p class="subtitle">
+									<span data-lang="PT">Curso de AngularJS</span>
+									<span class="hide" data-lang="EN">AngularJS course</span>
+								</p>
+								<p>
+									<span data-lang="PT">Online (3 horas)</span>
+									<span class="hide" data-lang="EN">Online (3 hours)</span>
+								</p>
+								<a href="http://ude.my/UC-PS3YK5JH">
+									<span data-lang="PT">Ver certificado</span>
+									<span class="hide" data-lang="EN">View certificate</span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<!-- ./ UDEMY -->
 
-1. Numbered
-2. List
+				</div>
+				<!-- ./ CURSOS -->
 
-**Bold** and _Italic_ and `Code` text
+				<!-- CERTIFICADOS -->
+				<button class="accordion">
+					<span data-lang="PT">Certificados</span>
+					<span class="hide" data-lang="EN">Certificates</span>
+					<i class="fas fa-angle-down"></i>
+				</button>
+				<div class="accordion-content">
+					<p>
+						<span data-lang="PT">Em construção</span>
+						<span class="hide" data-lang="EN">Under construction</span>
+					</p>
+				</div>
+				<!-- ./ CERTIFICADOS -->
 
-[Link](url) and ![Image](src)
-```
+			</div>
+		</section>
+		<!-- ./ ESCOLARIDADE -->
+		
+		<!-- EXPERIÊNCIA PROFISSIONAL -->
+		<section id="experiencia-profissional" class="secao">
+			<div class="secao-title">
+				<div class="secao-title-content">
+					<h2>
+						<span data-lang="PT">Experiência Profissional</span>
+						<span class="hide" data-lang="EN">Professional Experience</span>
+					</h2>
+				</div>
+			</div>
+			
+			<div class="secao-content">
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+				<button class="accordion">
+					<span data-lang="PT">Programador Junior</span>
+					<span class="hide" data-lang="EN">Junior Programmer</span>
+					<i class="fas fa-angle-down"></i>
+				</button>
+				<div class="accordion-content">
+					<div>
+						<div class="title">
+							<div>
+								<img src="assets/img/exp-profissional/indra.png" alt="Logotipo da Indra">
+							</div>
+							<p>
+								<span data-lang="PT">Indra Brasil Soluções e Serviços Tecnológicos S/A</span>
+								<span class="hide" data-lang="EN">Indra Company | Minsait</span>
+							</p>
+						</div>
+						<div class="info">
+							<p class="subtitle">2019</p>
+							<p>
+								<span data-lang="PT">Atuando em projeto de sustentação, com desenvolvimento de correções e melhorias, para um sistema jurídico. Desenvolvimento back-end com JAVA (JDBC, JSP, JSF, EJB) e banco de dados Oracle SQL.</span>
+								<span class="hide" data-lang="EN">Acting on a support project, with development of corrections and improvements, for a legal system. Back-end development with JAVA (JDBC, JSP, JSF, EJB) and Oracle SQL database.</span>
+							</p>
+						</div>
+					</div>
+				</div>
 
-### Jekyll Themes
+				<button class="accordion">
+					<span data-lang="PT">Desenvolvedor Junior</span>
+					<span class="hide" data-lang="EN">Junior Development</span>
+					<i class="fas fa-angle-down"></i>
+				</button>
+				<div class="accordion-content">
+					<div>
+						<div class="title">
+							<div>
+								<img src="assets/img/exp-profissional/class-solutions.png" alt="Logotipo da Class Solutions">
+							</div>
+							<p>
+								<span data-lang="PT">Class Comércio e Sistemas de Informática Ltda.</span>
+								<span class="hide" data-lang="EN">Class Solutions</span>
+							</p>
+						</div>
+						<div class="info">
+							<p class="subtitle">2019</p>
+							<p>
+								<span data-lang="PT">Suporte e desenvolvimento front-end com HTML, CSS e JS (AngularJS) voltado a Sharepoint. Desenvolvimento de fluxos de trabalho automatizados e integrações entre aplicativos e serviços, com Microsoft Flow.</span>
+								<span class="hide" data-lang="EN">Support and front-end development with HTML, CSS and JS (AngularJS) aimed at Sharepoint. Developing automated workflows and integrations between applications and services with Microsoft Flow.</span>
+							</p>
+						</div>
+					</div>
+				</div>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ERICKCOST/politicaPrivacidadeCIK/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+				<button class="accordion">
+					<span data-lang="PT">Estagiário de Desenvolvimento</span>
+					<span class="hide" data-lang="EN">Development Trainee</span>
+					<i class="fas fa-angle-down"></i>
+				</button>
+				<div class="accordion-content">
+					<div>
+						<div class="title">
+							<div>
+								<img src="assets/img/exp-profissional/class-solutions.png" alt="Logotipo da Class Solutions">
+							</div>
+							<p>
+								<span data-lang="PT">Class Comércio e Sistemas de Informática Ltda.</span>
+								<span class="hide" data-lang="EN">Class Solutions</span>
+							</p>
+						</div>
+						<div class="info">
+							<p class="subtitle">2017 - 2019</p>
+							<p>
+								<span data-lang="PT">Desenvolvimento <em>Low-code/No-code</em>, através das ferramentas do Microsoft Office 365, com foco em Sharepoint e Microsoft Flow. Desenvolvimento front-end com HTML, CSS e JS (AngularJS), voltado a Sharepoint.</span>
+								<span class="hide" data-lang="EN">Low-code/No-code development, using Microsoft Office 365 tools, focused on Sharepoint and Microsoft Flow. Front-end development with HTML, CSS and JS, aimed at Sharepoint.</span>
+							</p>
+						</div>
+					</div>
+				</div>
 
-### Support or Contact
+				<button class="accordion">
+					<span data-lang="PT">Especialista de Atendimento ao Cliente</span>
+					<span class="hide" data-lang="EN">Customer Service Specialist</span>
+					<i class="fas fa-angle-down"></i>
+				</button>
+				<div class="accordion-content">
+					<div>
+						<div class="title">
+							<div>
+								<img src="assets/img/exp-profissional/teletech.png" alt="Logotipo da TeleTech">
+							</div>
+							<p>
+								<span data-lang="PT">TeleTech Brasil Serviços Ltda.</span>
+								<span class="hide" data-lang="EN">TeleTech Brasil</span>
+							</p>
+						</div>
+						<div class="info">
+							<p class="subtitle">2017 - 2019</p>
+							<p>
+								<span data-lang="PT">Atendimento ao cliente final da Netflix, via telefone e bate-papo online, para resolução de problemas relacionados à Netflix, como assinatura do serviço, conexão com a plataforma, configurações dos aparelhos compatíveis e dúvidas gerais.</span>
+								<span class="hide" data-lang="EN">Netflix end-user customer support, via phone and online chat, for troubleshooting Netflix-related issues such as service subscription, platform connection, compatible device configurations, and general questions.</span>
+							</p>
+						</div>
+					</div>
+				</div>
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+			</div>
+		</section>
+		<!-- ./ EXPERIÊNCIA PROFISSIONAL -->
+		
+		<!-- PROJETOS -->
+		<section id="projetos" class="secao">
+			<div class="secao-title">
+				<div class="secao-title-content">
+					<h2>
+						<span data-lang="PT">Projetos</span>
+						<span class="hide" data-lang="EN">Projects</span>
+					</h2>
+				</div>
+			</div>
+			<div class="secao-content">
+				<!-- Abas -->
+				<div class="tabs">
+					<button id="front" class="tab active">Front-End</button>
+					<button id="back" class="tab">Back-End</button>
+					<button id="outros" class="tab">
+						<span data-lang="PT">Outros</span>
+						<span class="hide" data-lang="EN">Others</span>
+					</button>
+				</div>
+				
+				<!-- Conteúdo das Abas -->
+				<!-- Front End -->
+				<div class="tab-content active">
+					
+					<div class="projeto" id="proj-games">
+						<div class="projeto-content">
+							<a href="https://wesraiuga.github.io/games/">
+								<i class="fas fa-link"></i>
+								<span data-lang="PT">Visitar</span>
+								<span class="hide" data-lang="EN">Visit</span>
+							</a>
+							<a href="https://github.com/WesRaiuga/games">
+								<i class="fas fa-code"></i>
+								<span data-lang="PT">Ver Código</span>
+								<span class="hide" data-lang="EN">See Code</span>
+							</a>
+						</div>
+						<a href="https://wesraiuga.github.io/games/" class="projeto-titulo">
+							<span data-lang="PT">Jogos</span>
+							<span class="hide" data-lang="EN">Games</span>
+						</a>
+					</div>
+					
+					<div class="projeto" id="proj-wedance">
+						<div class="projeto-content">
+							<a href="https://wesraiuga.github.io/wedance/">
+								<i class="fas fa-link"></i>
+								<span data-lang="PT">Visitar</span>
+								<span class="hide" data-lang="EN">Visit</span>
+							</a>
+							<a href="https://github.com/WesRaiuga/wedance">
+								<i class="fas fa-code"></i>
+								<span data-lang="PT">Ver Código</span>
+								<span class="hide" data-lang="EN">See Code</span>
+							</a>
+						</div>
+						<a href="https://wesraiuga.github.io/wedance/" class="projeto-titulo">WeDance</a>
+					</div>
+					
+				</div>
+				
+				<!-- Back End -->
+				<div class="tab-content">
+					
+					<div class="projeto">
+						<div class="projeto-content">
+							<a href="#">
+								<i class="fas fa-link"></i>
+								<span data-lang="PT">Visitar</span>
+								<span class="hide" data-lang="EN">Visit</span>
+							</a>
+							<a href="#">
+								<i class="fas fa-code"></i>
+								<span data-lang="PT">Ver Código</span>
+								<span class="hide" data-lang="EN">See Code</span>
+							</a>
+						</div>
+						<a href="#" class="projeto-titulo">
+							<span data-lang="PT">Nome do Projeto</span>
+							<span class="hide" data-lang="EN">Project's Name</span>
+						</a>
+					</div>
+					
+					<div class="projeto">
+						<div class="projeto-content">
+							<a href="#">
+								<i class="fas fa-link"></i>
+								<span data-lang="PT">Visitar</span>
+								<span class="hide" data-lang="EN">Visit</span>
+							</a>
+							<a href="#">
+								<i class="fas fa-code"></i>
+								<span data-lang="PT">Ver Código</span>
+								<span class="hide" data-lang="EN">See Code</span>
+							</a>
+						</div>
+						<a href="#" class="projeto-titulo">
+							<span data-lang="PT">Nome do Projeto</span>
+							<span class="hide" data-lang="EN">Project's Name</span>
+						</a>
+					</div>
+					
+				</div>
+				
+				<!-- Outros -->
+				<div class="tab-content">
+					
+					<div class="projeto" id="proj-desenhos">
+						<div class="projeto-content">
+							<a href="#">
+								<i class="fas fa-images"></i>
+								<span data-lang="PT">Ver imagens</span>
+								<span class="hide" data-lang="EN">View pictures</span>
+							</a>
+						</div>
+						<a href="#" class="projeto-titulo">
+							<span data-lang="PT">Desenhos</span>
+							<span class="hide" data-lang="EN">Drawings</span>
+						</a>
+					</div>
+					
+					<div class="projeto" id="proj-pixelart">
+						<div class="projeto-content">
+							<a href="#">
+								<i class="fas fa-images"></i>
+								<span data-lang="PT">Ver imagens</span>
+								<span class="hide" data-lang="EN">View pictures</span>
+							</a>
+						</div>
+						<a href="#" class="projeto-titulo">Pixel Art</a>
+					</div>
+					
+					<div class="projeto" id="proj-conto1">
+						<div class="projeto-content">
+							<a href="http://weslley26.tumblr.com/post/173490167668/olheparaoceu">
+								<i class="fab fa-readme"></i>
+								<span data-lang="PT">Ler o conto</span>
+								<span class="hide" data-lang="EN">Read the story</span>
+							</a>
+						</div>
+						<a href="http://weslley26.tumblr.com/post/173490167668/olheparaoceu" class="projeto-titulo">
+							<span data-lang="PT">Olhe para o céu</span>
+							<span class="hide" data-lang="EN">Look to the sky</span>
+						</a>
+					</div>
+					
+					<div class="projeto" id="proj-shield">
+						<div class="projeto-content">
+							<a href="#">
+								<i class="fas fa-cubes"></i>
+								<span data-lang="PT">Ver modelos 3D</span>
+								<span class="hide" data-lang="EN">View 3D models</span>
+							</a>
+						</div>
+						<a href="#" class="projeto-titulo">
+							<span data-lang="PT">Modelagem 3D</span>
+							<span class="hide" data-lang="EN">3D Modeling</span>
+						</a>
+					</div>
+					
+				</div>
+			</div>
+		</section>
+		<!-- ./ PROJETOS -->
+		
+		<!-- CONTATO -->
+		<section id="contato" class="secao">
+			<div class="secao-title">
+				<div class="secao-title-content">
+					<h2>
+						<span data-lang="PT">Contato</span>
+						<span class="hide" data-lang="EN">Contact</span>
+					</h2>
+				</div>
+			</div>
+			<div class="secao-content">
+				<h1>
+					<span data-lang="PT">Em construção</span>
+					<span class="hide" data-lang="EN">Under construction</span>
+				</h1>
+			</div>
+		</section>
+		<!-- ./ CONTATO -->
+		
+		<footer>
+			<div>
+				<!-- Redes Sociais -->
+				<ul id="footer-redes-sociais">
+					<li>
+						<a href="https://web.facebook.com/wesraiuga" class="footer-social-icon">
+							<i class="fab fa-facebook-f fa-lg"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://www.linkedin.com/in/wesraiuga/" class="footer-social-icon">
+							<i class="fab fa-linkedin-in fa-lg"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://github.com/WesRaiuga" class="footer-social-icon">
+							<i class="fab fa-github fa-lg"></i>
+						</a>
+					</li>
+					<li>
+						<a href="http://weslley26.tumblr.com/" class="footer-social-icon">
+							<i class="fab fa-tumblr fa-lg"></i>
+						</a>
+					</li>
+				</ul>
+				
+			</div>
+			<div>
+				<span>2019 - WesRaiuga</span>
+			</div>
+		</footer>
+		
+	</body>
+</html>
