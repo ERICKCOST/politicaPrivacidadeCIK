@@ -32,7 +32,7 @@
 		<!-- BANNER PRINCIPAL -->
 		<div id="banner">
 			<div id="banner-content">
-				<h3>Weslley Alves de Aguiar</h3>
+				<h3>Erick Costa Silva</h3>
 				<h1>
 					<span data-lang="PT">
 						Analista <span class="verde">Desenvolvedor</span>
