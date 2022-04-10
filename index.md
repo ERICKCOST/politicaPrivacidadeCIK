@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="pt-br">
 	<head>
 		<meta charset="UTF-8">
@@ -238,43 +238,9 @@
 						</div>
 					</div>
 				</div>
-				<!-- ./ FORMAÇÃO ACADÊMICA -->
-
-				<!-- CURSOS -->
-				
-					<!-- ./ MASTERTECH -->
-
-					<!-- UDEMY -->
-					
-				<!-- ./ CURSOS -->
-
-				<!-- CERTIFICADOS -->
-				<button class="accordion">
-					<span data-lang="PT">Certificados</span>
-					<span class="hide" data-lang="EN">Certificates</span>
-					<i class="fas fa-angle-down"></i>
-				</button>
-				<div class="accordion-content">
-					<p>
-						<span data-lang="PT">Em construção</span>
-						<span class="hide" data-lang="EN">Under construction</span>
-					</p>
-				</div>
-				<!-- ./ CERTIFICADOS -->
 
 			</div>
 		</section>
-		<!-- ./ ESCOLARIDADE -->
-		
-
-		
-		<!-- PROJETOS -->
-
-		<!-- ./ PROJETOS -->
-		
-		<!-- CONTATO -->
-
-		<!-- ./ CONTATO -->
 
 		
 	</body>
