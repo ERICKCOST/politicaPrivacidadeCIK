@@ -68,7 +68,7 @@
 		<div id="menu">
 			<header>
 				<div class="titulo">
-					<h2>Weslley</h2>
+					<h2>Erick</h2>
 				</div>
 				
 				<div class="menu-hamburguer">
@@ -241,95 +241,11 @@
 				<!-- ./ FORMAÇÃO ACADÊMICA -->
 
 				<!-- CURSOS -->
-				<button class="accordion">
-					<span data-lang="PT">Cursos</span>
-					<span class="hide" data-lang="EN">Courses</span>
-					<i class="fas fa-angle-down"></i>
-				</button>
-				<div class="accordion-content">
-					<!-- MASTERTECH -->
-					<div>
-						<div class="title">
-							<div>
-								<img src="assets/img/escolaridade/mastertech.png" alt="Logo da Mastertech: Um 'M' vermelho.">
-							</div>
-							<p>Mastertech</p>
-						</div>
-						<div class="info horizontal">
-							<div>
-								<p class="subtitle">
-									<span data-lang="PT">Academia Mastertech</span>
-									<span class="hide" data-lang="EN">Mastertech Academy</span>
-								</p>
-								<p>
-									<span data-lang="PT">Presencial (90 horas)</span>
-									<span class="hide" data-lang="EN">Presential (90 hours)</span>
-								</p>
-								<a href="https://drive.google.com/file/d/1esHG7Gaw3XSIOYAY9JnbQLuh37MnhN4z/view">
-									<span data-lang="PT">Ver certificado</span>
-									<span class="hide" data-lang="EN">View certificate</span>
-								</a>
-							</div>
-							<div>
-								<p class="subtitle">
-									<span data-lang="PT">Estação de Programação</span>
-									<span class="hide" data-lang="EN">Programming Station</span>
-								</p>
-								<p>
-									<span data-lang="PT">Presencial (16 horas)</span>
-									<span class="hide" data-lang="EN">Presential (16 hours)</span>
-								</p>
-								<a href="https://drive.google.com/file/d/15CEkBlKHPeH1GWZiLnR6CamGP2Ag7a0g/view">
-									<span data-lang="PT">Ver certificado</span>
-									<span class="hide" data-lang="EN">View certificate</span>
-								</a>
-							</div>
-						</div>
-					</div>
+				
 					<!-- ./ MASTERTECH -->
 
 					<!-- UDEMY -->
-					<div>
-						<div class="title">
-							<div>
-								<img src="assets/img/escolaridade/udemy.png" alt="Logo da Udemy: Um 'U' vermelho.">
-							</div>
-							<p>Udemy</p>
-						</div>
-						<div class="info horizontal">
-							<div>
-								<p class="subtitle">
-									<span data-lang="PT">Aprendendo a programar em Java</span>
-									<span class="hide" data-lang="EN">Learning to program in Java</span>
-								</p>
-								<p>
-									<span data-lang="PT">Online (6,5 horas)</span>
-									<span class="hide" data-lang="EN">Online (6.5 hours)</span>
-								</p>
-								<a href="http://ude.my/UC-HBLJSIMP">
-									<span data-lang="PT">Ver certificado</span>
-									<span class="hide" data-lang="EN">View certificate</span>
-								</a>
-							</div>
-							<div>
-								<p class="subtitle">
-									<span data-lang="PT">Curso de AngularJS</span>
-									<span class="hide" data-lang="EN">AngularJS course</span>
-								</p>
-								<p>
-									<span data-lang="PT">Online (3 horas)</span>
-									<span class="hide" data-lang="EN">Online (3 hours)</span>
-								</p>
-								<a href="http://ude.my/UC-PS3YK5JH">
-									<span data-lang="PT">Ver certificado</span>
-									<span class="hide" data-lang="EN">View certificate</span>
-								</a>
-							</div>
-						</div>
-					</div>
-					<!-- ./ UDEMY -->
-
-				</div>
+					
 				<!-- ./ CURSOS -->
 
 				<!-- CERTIFICADOS -->
@@ -350,126 +266,7 @@
 		</section>
 		<!-- ./ ESCOLARIDADE -->
 		
-		<!-- EXPERIÊNCIA PROFISSIONAL -->
-		<section id="experiencia-profissional" class="secao">
-			<div class="secao-title">
-				<div class="secao-title-content">
-					<h2>
-						<span data-lang="PT">Experiência Profissional</span>
-						<span class="hide" data-lang="EN">Professional Experience</span>
-					</h2>
-				</div>
-			</div>
-			
-			<div class="secao-content">
 
-				<button class="accordion">
-					<span data-lang="PT">Programador Junior</span>
-					<span class="hide" data-lang="EN">Junior Programmer</span>
-					<i class="fas fa-angle-down"></i>
-				</button>
-				<div class="accordion-content">
-					<div>
-						<div class="title">
-							<div>
-								<img src="assets/img/exp-profissional/indra.png" alt="Logotipo da Indra">
-							</div>
-							<p>
-								<span data-lang="PT">Indra Brasil Soluções e Serviços Tecnológicos S/A</span>
-								<span class="hide" data-lang="EN">Indra Company | Minsait</span>
-							</p>
-						</div>
-						<div class="info">
-							<p class="subtitle">2019</p>
-							<p>
-								<span data-lang="PT">Atuando em projeto de sustentação, com desenvolvimento de correções e melhorias, para um sistema jurídico. Desenvolvimento back-end com JAVA (JDBC, JSP, JSF, EJB) e banco de dados Oracle SQL.</span>
-								<span class="hide" data-lang="EN">Acting on a support project, with development of corrections and improvements, for a legal system. Back-end development with JAVA (JDBC, JSP, JSF, EJB) and Oracle SQL database.</span>
-							</p>
-						</div>
-					</div>
-				</div>
-
-				<button class="accordion">
-					<span data-lang="PT">Desenvolvedor Junior</span>
-					<span class="hide" data-lang="EN">Junior Development</span>
-					<i class="fas fa-angle-down"></i>
-				</button>
-				<div class="accordion-content">
-					<div>
-						<div class="title">
-							<div>
-								<img src="assets/img/exp-profissional/class-solutions.png" alt="Logotipo da Class Solutions">
-							</div>
-							<p>
-								<span data-lang="PT">Class Comércio e Sistemas de Informática Ltda.</span>
-								<span class="hide" data-lang="EN">Class Solutions</span>
-							</p>
-						</div>
-						<div class="info">
-							<p class="subtitle">2019</p>
-							<p>
-								<span data-lang="PT">Suporte e desenvolvimento front-end com HTML, CSS e JS (AngularJS) voltado a Sharepoint. Desenvolvimento de fluxos de trabalho automatizados e integrações entre aplicativos e serviços, com Microsoft Flow.</span>
-								<span class="hide" data-lang="EN">Support and front-end development with HTML, CSS and JS (AngularJS) aimed at Sharepoint. Developing automated workflows and integrations between applications and services with Microsoft Flow.</span>
-							</p>
-						</div>
-					</div>
-				</div>
-
-				<button class="accordion">
-					<span data-lang="PT">Estagiário de Desenvolvimento</span>
-					<span class="hide" data-lang="EN">Development Trainee</span>
-					<i class="fas fa-angle-down"></i>
-				</button>
-				<div class="accordion-content">
-					<div>
-						<div class="title">
-							<div>
-								<img src="assets/img/exp-profissional/class-solutions.png" alt="Logotipo da Class Solutions">
-							</div>
-							<p>
-								<span data-lang="PT">Class Comércio e Sistemas de Informática Ltda.</span>
-								<span class="hide" data-lang="EN">Class Solutions</span>
-							</p>
-						</div>
-						<div class="info">
-							<p class="subtitle">2017 - 2019</p>
-							<p>
-								<span data-lang="PT">Desenvolvimento <em>Low-code/No-code</em>, através das ferramentas do Microsoft Office 365, com foco em Sharepoint e Microsoft Flow. Desenvolvimento front-end com HTML, CSS e JS (AngularJS), voltado a Sharepoint.</span>
-								<span class="hide" data-lang="EN">Low-code/No-code development, using Microsoft Office 365 tools, focused on Sharepoint and Microsoft Flow. Front-end development with HTML, CSS and JS, aimed at Sharepoint.</span>
-							</p>
-						</div>
-					</div>
-				</div>
-
-				<button class="accordion">
-					<span data-lang="PT">Especialista de Atendimento ao Cliente</span>
-					<span class="hide" data-lang="EN">Customer Service Specialist</span>
-					<i class="fas fa-angle-down"></i>
-				</button>
-				<div class="accordion-content">
-					<div>
-						<div class="title">
-							<div>
-								<img src="assets/img/exp-profissional/teletech.png" alt="Logotipo da TeleTech">
-							</div>
-							<p>
-								<span data-lang="PT">TeleTech Brasil Serviços Ltda.</span>
-								<span class="hide" data-lang="EN">TeleTech Brasil</span>
-							</p>
-						</div>
-						<div class="info">
-							<p class="subtitle">2017 - 2019</p>
-							<p>
-								<span data-lang="PT">Atendimento ao cliente final da Netflix, via telefone e bate-papo online, para resolução de problemas relacionados à Netflix, como assinatura do serviço, conexão com a plataforma, configurações dos aparelhos compatíveis e dúvidas gerais.</span>
-								<span class="hide" data-lang="EN">Netflix end-user customer support, via phone and online chat, for troubleshooting Netflix-related issues such as service subscription, platform connection, compatible device configurations, and general questions.</span>
-							</p>
-						</div>
-					</div>
-				</div>
-
-			</div>
-		</section>
-		<!-- ./ EXPERIÊNCIA PROFISSIONAL -->
 		
 		<!-- PROJETOS -->
 		<section id="projetos" class="secao">
