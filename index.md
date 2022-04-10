@@ -25,7 +25,7 @@
 		<script src="assets/js/projetos.js" defer></script>
 		<script src="assets/js/accordion.js" defer></script>
 		
-		<title>Weslley Alves de Aguiar</title>
+		<title>Erick Costa Silva</title>
 	</head>
 
 	<body>
@@ -41,33 +41,20 @@
 						Analyst <span class="verde">Developer</span>
 					</span>
 				</h1>
-				<p>
-					<span data-lang="PT">Formado em Análise e Desenvolvimento de Sistemas na <a id="fiap" href="https://www.fiap.com.br/">FIAP</a>.</span>
-					<span class="hide" data-lang="EN">Graduated in Systems Analysis and Development at <a id="fiap" href="https://www.fiap.com.br/">FIAP</a>.</span>
-				</p>
 				<!-- Redes Sociais -->
 				<nav id="redes-sociais">
 					<ul>
 						<li>
-							<a href="https://web.facebook.com/wesraiuga" class="social-icon">
+							<a href="https://web.facebook.com/egiqui" class="social-icon">
 								<i class="fab fa-facebook-f fa-lg"></i>
 							</a>
 						</li>
 						<li>
-							<a href="https://www.linkedin.com/in/wesraiuga/" class="social-icon">
+							<a href="https://www.linkedin.com/in/erick-c-silva-0122a5149/" class="social-icon">
 								<i class="fab fa-linkedin-in fa-lg"></i>
 							</a>
 						</li>
-						<li>
-							<a href="https://github.com/WesRaiuga" class="social-icon">
-								<i class="fab fa-github fa-lg"></i>
-							</a>
-						</li>
-						<li>
-							<a href="http://weslley26.tumblr.com/" class="social-icon">
-								<i class="fab fa-tumblr fa-lg"></i>
-							</a>
-						</li>
+					
 					</ul>
 				</nav>
 				<div id="scroll">
